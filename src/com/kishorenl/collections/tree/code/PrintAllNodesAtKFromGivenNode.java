@@ -1,16 +1,6 @@
-package com.kishorenl.collections.tree;
+package com.kishorenl.collections.tree.code;
 // Java program to print all nodes at a distance k from given node 
 
-// A binary tree node 
-class Node {
-	int data;
-	Node left, right;
-
-	Node(int item) {
-		data = item;
-		left = right = null;
-	}
-}
 
 class PrintAllNodesAtKFromGivenNode {
 	Node root;
@@ -97,7 +87,7 @@ class PrintAllNodesAtKFromGivenNode {
 
 	// Driver program to test the above functions
 	public static void main(String args[]) {
-	    PrintAllNodesAtKFromGivenNode tree = new PrintAllNodesAtKFromGivenNode();
+		PrintAllNodesAtKFromGivenNode tree = new PrintAllNodesAtKFromGivenNode();
 
 		/* Let us construct the tree shown in above diagram */
 		tree.root = new Node(20);

@@ -32,6 +32,10 @@ public class LinkedListSorting {
                 return s1.length() - s2.length();
             }
         });
+
+        // To make it reverse order
+        Collections.sort(singlyLinkedList, Collections.reverseOrder());
+
         System.out.println("LinkedList (after sorting using Comparator): " + singlyLinkedList);
     }
 

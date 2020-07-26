@@ -2,7 +2,7 @@
 
 Traverse the tree T in preorder fashion. For every visited node in the traversal, see if the subtree rooted with this node is identical to S.
 
-Complexity: Time worst case complexity of above solution is O(mn) where m and n are number of nodes in given two trees.
+Complexity:  worst case time complexity of above solution is O(mn) where m and n are number of nodes in given two trees.
 
 ```java
 class BinaryTree  

@@ -1,5 +1,16 @@
 Whenever solving a problem on Binary Trees, try the following properties:
 
+Other Notes:
+Nodes and height relationship:
+
+- For n nodes
+    - min height = floor(logN)
+    - Max height = n-1 (skewed tree)
+
+- for height h - total nodes
+    - Max nodes = 2^0 + 2^1 + .. + 2^h = 2^(h+1) -1
+    - Min nodes = h+1 (skewed tree)
+    
 1.  Traverse the tree in InOrder\
     If its a Binary Search Tree, InOrder traversal of the tree will give you a sorted array.\
     And sorted arrays are immensely useful. In just O(n), you can:
@@ -26,3 +37,6 @@ Whenever solving a problem on Binary Trees, try the following properties:
     | To eliminate the stack, create a **thread** on the left child's rightmost child.\
     This thread will point to the current parent and help in returning back.\
     On returning back, nullify the thread again if already present. | ![](https://prismoskills.appspot.com/lessons/Binary_Trees/threadedtree.png) |
+
+
+

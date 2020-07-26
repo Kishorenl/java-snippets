@@ -22,7 +22,7 @@ PriorityQueue maxHeap=new PriorityQueue(size, new MyComparator());
 
 We can add size as the first argument to PriorityQueue
 
-So, overally for maxHeap we can use from Java1.8
+So, overal for maxHeap we can use from Java1.8
 
 PriorityQueue<Integer> queue = new PriorityQueue<>(10, Collections.reverseOrder());
 
